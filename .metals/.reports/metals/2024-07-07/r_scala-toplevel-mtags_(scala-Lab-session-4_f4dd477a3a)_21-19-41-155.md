@@ -1,5 +1,4 @@
-  import scala.compiletime.ops.string
-  def displayInventory(itemNames: Array[String], itemQuantities: Array[Int]): Unit = {
+error id: file:///E:/2nd%20Year/Semester%201/FC/practicals/sessions%204/scala-Lab-session-4/lab4.scala:[836..839) in Input.VirtualFile("file:///E:/2nd%20Year/Semester%201/FC/practicals/sessions%204/scala-Lab-session-4/lab4.scala", "  def displayInventory(itemNames: Array[String], itemQuantities: Array[Int]): Unit = {
     if (itemNames.length != itemQuantities.length) {
       println("Error: The length of item names array and item quantities array must be the same.")
     } else {
@@ -20,17 +19,17 @@
     }
   }
 
-  def sellItem(itemname:Array[String],itemQuantities:Array[Int],itemName:String,quantities:Int):Unit={
-    val index = itemname.indexOf(itemName)
-    if(index>=0 && itemQuantities(index)>=quantities){
-      itemQuantities(index) -= quantities
-      println(s"Restocked $quantities of $itemName.New quantity: ${itemQuantities(index)}")
-    }else{
-      println("Hello")
-    }
-  }
+  def 
 
   val items = Array("Apple", "Banana", "Orange")
   val quantities = Array(10, 20, 15)
 
  
+")
+file:///E:/2nd%20Year/Semester%201/FC/practicals/sessions%204/scala-Lab-session-4/lab4.scala
+file:///E:/2nd%20Year/Semester%201/FC/practicals/sessions%204/scala-Lab-session-4/lab4.scala:24: error: expected identifier; obtained val
+  val items = Array("Apple", "Banana", "Orange")
+  ^
+#### Short summary: 
+
+expected identifier; obtained val
