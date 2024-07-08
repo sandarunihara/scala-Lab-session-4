@@ -246,3 +246,44 @@ INFO: Unsupported notification method: $/setTrace
 2024.07.08 08:10:18 INFO  compiling scala-lab-session-4_f4dd477a3a (3 scala sources)
 2024.07.08 08:10:20 INFO  time: indexed workspace in 2.88s
 2024.07.08 08:10:24 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 5.92s
+Jul 08, 2024 8:11:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+2024.07.08 08:11:54 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:11:57 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 3.12s
+2024.07.08 08:15:18 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:15:20 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 1.96s
+2024.07.08 08:15:27 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:15:29 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 1.52s
+2024.07.08 08:25:19 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:25:19 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 0.96s
+2024.07.08 08:25:22 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:25:24 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 1.5s
+2024.07.08 08:25:24 WARN  Could not load snapshot text for E:\2nd Year\Semester 1\FC\practicals\sessions 4\scala-Lab-session-4\q1.scala
+2024.07.08 08:25:24 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:25:25 WARN  Could not load snapshot text for E:\2nd Year\Semester 1\FC\practicals\sessions 4\scala-Lab-session-4\q1.scala
+2024.07.08 08:25:25 WARN  Could not load snapshot text for E:\2nd Year\Semester 1\FC\practicals\sessions 4\scala-Lab-session-4\q1.scala
+2024.07.08 08:25:26 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 1.44s
+2024.07.08 08:25:26 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:25:27 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 0.66s
+2024.07.08 08:25:36 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:25:36 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 0.64s
+Jul 08, 2024 8:25:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 289
+2024.07.08 08:25:42 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:25:42 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 0.71s
+2024.07.08 08:25:44 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:25:44 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 0.57s
+2024.07.08 08:25:46 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:25:46 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 1s
+2024.07.08 08:25:48 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:25:48 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 0.39s
+2024.07.08 08:26:18 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:26:18 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 0.41s
+2024.07.08 08:26:20 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:26:20 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 0.56s
+2024.07.08 08:26:23 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:26:23 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 0.82s
+2024.07.08 08:26:29 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:26:29 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 0.49s
+2024.07.08 08:26:33 INFO  compiling scala-lab-session-4_f4dd477a3a (1 scala source)
+2024.07.08 08:26:33 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 0.84s
