@@ -1,4 +1,4 @@
-  import scala.compiletime.ops.string
+
   def displayInventory(itemNames: Array[String], itemQuantities: Array[Int]): Unit = {
     if (itemNames.length != itemQuantities.length) {
       println("Error: The length of item names array and item quantities array must be the same.")
@@ -24,9 +24,9 @@
     val index = itemname.indexOf(itemName)
     if(index>=0 && itemQuantities(index)>=quantities){
       itemQuantities(index) -= quantities
-      println(s"Restocked $quantities of $itemName.New quantity: ${itemQuantities(index)}")
+      println(s"Selled $quantities of $itemName.Available quantity: ${itemQuantities(index)}")
     }else{
-      println("Hello")
+      println("Item  does not exist in the inventory OR does not have enough quantities")
     }
   }
 
