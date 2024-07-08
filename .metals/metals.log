@@ -240,3 +240,9 @@ INFO: Unsupported notification method: $/setTrace
 2024.07.08 08:10:08 INFO  Running BSP server List(C:\Users\User\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, E:\2nd Year\Semester 1\FC\practicals\sessions 4\scala-Lab-session-4\.scala-build\ide-options-v2.json, --json-launcher-options, E:\2nd Year\Semester 1\FC\practicals\sessions 4\scala-Lab-session-4\.scala-build\ide-launcher-options.json, --envs-file, E:\2nd Year\Semester 1\FC\practicals\sessions 4\scala-Lab-session-4\.scala-build\ide-envs.json, E:\2nd Year\Semester 1\FC\practicals\sessions 4\scala-Lab-session-4)
 2024.07.08 08:10:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at E:\2nd Year\Semester 1\FC\practicals\sessions 4\scala-Lab-session-4\.metals\bsp.trace.json or C:\Users\User\AppData\Local\scalameta\metals\cache\bsp.trace.json
 2024.07.08 08:10:10 INFO  BSP server: Starting compilation server
+2024.07.08 08:10:16 INFO  time: Connected to build server in 8.92s
+2024.07.08 08:10:16 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.08 08:10:17 INFO  time: Imported build in 0.24s
+2024.07.08 08:10:18 INFO  compiling scala-lab-session-4_f4dd477a3a (3 scala sources)
+2024.07.08 08:10:20 INFO  time: indexed workspace in 2.88s
+2024.07.08 08:10:24 INFO  time: compiled scala-Lab-session-4_f4dd477a3a in 5.92s
