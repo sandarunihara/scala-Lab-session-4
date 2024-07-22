@@ -11,7 +11,7 @@
   }
 
   def restockItem(itemNames: Array[String], itemQuantities: Array[Int], itemName: String, quantity: Int): Unit = {
-    val index = itemNames.indexOf(itemName)
+    val index = itemNames.indexOf(itemName.toLowerCase())
     if (index >= 0) {
       itemQuantities(index) += quantity
       println(s"Restocked $quantity of $itemName.New quantity: ${itemQuantities(index)}")
@@ -35,8 +35,12 @@
 
   def main(args: Array[String]): Unit = {
 
-    val items = Array("Apple", "Banana", "Orange")
+    val items = Array("apple", "Banana", "Orange")
     val quantities = Array(10, 20, 15)
+
+    displayInventory(items,quantities)
+
+    sellItem(items,quantities,"apple",100)
 
   }
 
