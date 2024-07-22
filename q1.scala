@@ -21,7 +21,7 @@
   }
 
   def sellItem(itemname:Array[String],itemQuantities:Array[Int],itemName:String,quantities:Int):Unit={
-    val index = itemname.indexOf(itemName)
+    val index = itemname.indexOf(itemName.toLowerCase())
     if(index>=0 && itemQuantities(index)>=quantities){
       itemQuantities(index) -= quantities
       println(s"Selled $quantities of $itemName.Available quantity: ${itemQuantities(index)}")
@@ -35,12 +35,12 @@
 
   def main(args: Array[String]): Unit = {
 
-    val items = Array("apple", "Banana", "Orange")
+    val items = Array("apple", "banana", "orange")
     val quantities = Array(10, 20, 15)
 
     displayInventory(items,quantities)
-
-    sellItem(items,quantities,"apple",100)
+    restockItem(items,quantities,"Apple",40)
+    sellItem(items,quantities,"Apple",2)
 
   }
 
