@@ -33,4 +33,11 @@
   val items = Array("Apple", "Banana", "Orange")
   val quantities = Array(10, 20, 15)
 
+  def main(args: Array[String]): Unit = {
+
+    val items = Array("Apple", "Banana", "Orange")
+    val quantities = Array(10, 20, 15)
+
+  }
+
  
