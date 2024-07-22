@@ -7,3 +7,10 @@ def PatternMatching()={
         case _=>println("Enter valid number")
       }
 }
+
+def main(args: Array[String]): Unit = {
+  
+  while(true){
+    PatternMatching()
+  }
+}
